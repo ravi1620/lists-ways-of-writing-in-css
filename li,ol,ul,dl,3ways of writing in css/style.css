@@ -1,0 +1,50 @@
+ul li{
+    list-style-type: disc;
+    
+}
+
+
+#atchannadu{
+    list-style-image: url(./images/atchannaidu.ico);   
+   }
+#Lokesh{
+    list-style-image: url(./images/lokesh.ico); 
+}   
+#Lokesh::marker{
+    content: "🚴";
+}
+#Ravindra::marker{
+    content: "🚲";
+}
+#pk::marker{
+    content: "👊";
+}
+/* ol li{
+    list-style-type: square;
+    list-style-image:url(./images/cbn.ico);
+} */
+img{
+    width: 700px;
+     height: 600px;
+    filter: drop-shadow(10px 10px 10px rgb(163, 23, 23)); 
+    border: 15px groove greenyellow;
+    display:block; 
+    
+    
+}
+p{
+    display: inline-block;
+    height:600px;
+    width:200px;
+    overflow: auto;
+} 
+ul li{
+    list-style-type: circle;
+    
+}
+ul ol li{
+    list-style-type: lower-roman;
+}
+ul #atchannadu{
+    color: red
+}
